@@ -1,14 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import java.lang.*?>
-<?import java.util.*?>
-<?import javafx.scene.*?>
-<?import javafx.scene.control.*?>
-<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
 
-<AnchorPane xmlns="http://javafx.com/javafx"
-            xmlns:fx="http://javafx.com/fxml"
-            fx:controller="CONTROLLER_NAME"
-            prefHeight="400.0" prefWidth="600.0">
 
+<AnchorPane prefHeight="627.0" prefWidth="803.0" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.realestatecompany.anho.controller.FeedbackSubmissionController">
+   <children>
+      <Label layoutX="353.0" layoutY="72.0" text="Submit Feedback" />
+      <Label layoutX="135.0" layoutY="136.0" text="Feedback ID" />
+      <TextField fx:id="feedbackIdField" layoutX="279.0" layoutY="132.0" />
+      <Label layoutX="135.0" layoutY="181.0" text="Category" />
+      <ComboBox fx:id="categoryComboBox" layoutX="278.0" layoutY="177.0" prefWidth="150.0" />
+      <Label layoutX="135.0" layoutY="228.0" text="Rating" />
+      <TextField fx:id="ratingField" layoutX="279.0" layoutY="224.0" />
+      <Label layoutX="135.0" layoutY="287.0" text="Comments" />
+      <TextArea fx:id="commentsTextArea" layoutX="135.0" layoutY="314.0" prefHeight="200.0" prefWidth="200.0" />
+      <Button layoutX="223.0" layoutY="559.0" mnemonicParsing="false" onAction="#submitFeedbackButton" text="Submit Feedback" />
+      <Button layoutX="558.0" layoutY="559.0" mnemonicParsing="false" onAction="#clearButton" text="Clear" />
+   </children>
 </AnchorPane>
