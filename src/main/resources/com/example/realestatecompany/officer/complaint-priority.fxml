@@ -1,14 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import java.lang.*?>
-<?import java.util.*?>
-<?import javafx.scene.*?>
-<?import javafx.scene.control.*?>
-<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
 
-<AnchorPane xmlns="http://javafx.com/javafx"
-            xmlns:fx="http://javafx.com/fxml"
-            fx:controller="CONTROLLER_NAME"
-            prefHeight="400.0" prefWidth="600.0">
 
+<AnchorPane prefHeight="629.0" prefWidth="789.0" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.realestatecompany.anho.controller.ComplaintPriorityController">
+   <children>
+      <Label layoutX="343.0" layoutY="67.0" text="Complaint Priority" />
+      <Label layoutX="108.0" layoutY="135.0" text="Complaint ID" />
+      <TextField fx:id="complaintIdField" layoutX="248.0" layoutY="131.0" />
+      <Button layoutX="573.0" layoutY="131.0" mnemonicParsing="false" onAction="#searchComplaintButton" text="Search Complaint" />
+      <Label layoutX="108.0" layoutY="166.0" text="Complaint Details" />
+      <TextArea fx:id="complaintDetailsTextArea" layoutX="108.0" layoutY="199.0" prefHeight="200.0" prefWidth="200.0" />
+      <Label layoutX="108.0" layoutY="417.0" text="Current Priority" />
+      <TextField fx:id="currentPriorityField" layoutX="115.0" layoutY="444.0" />
+      <Label layoutX="458.0" layoutY="417.0" text="New Priority" />
+      <ComboBox fx:id="newPriorityComboBox" layoutX="458.0" layoutY="444.0" prefWidth="150.0" />
+      <Button layoutX="194.0" layoutY="510.0" mnemonicParsing="false" onAction="#assignPriorityButton" text="Assign Priority" />
+      <Button layoutX="505.0" layoutY="510.0" mnemonicParsing="false" onAction="#clearButton" text="Clear" />
+   </children>
 </AnchorPane>

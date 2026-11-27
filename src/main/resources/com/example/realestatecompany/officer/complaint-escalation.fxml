@@ -1,14 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import java.lang.*?>
-<?import java.util.*?>
-<?import javafx.scene.*?>
-<?import javafx.scene.control.*?>
-<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
 
-<AnchorPane xmlns="http://javafx.com/javafx"
-            xmlns:fx="http://javafx.com/fxml"
-            fx:controller="CONTROLLER_NAME"
-            prefHeight="400.0" prefWidth="600.0">
 
+<AnchorPane prefHeight="591.0" prefWidth="745.0" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.realestatecompany.anho.controller.ComplaintEscalationController">
+   <children>
+      <Label layoutX="313.0" layoutY="53.0" />
+      <Label layoutX="105.0" layoutY="101.0" text="Complaint ID" />
+      <TextField fx:id="complaintIdField" layoutX="254.0" layoutY="97.0" />
+      <Button layoutX="537.0" layoutY="97.0" mnemonicParsing="false" onAction="#searchComplaintButton" text="Search Complaint" />
+      <Label layoutX="105.0" layoutY="135.0" text="Complaint Details" />
+      <TextArea fx:id="complaintDetailsTextArea" layoutX="105.0" layoutY="170.0" prefHeight="200.0" prefWidth="200.0" />
+      <Label layoutX="431.0" layoutY="135.0" text="Escalation Reason" />
+      <TextArea fx:id="escalaltionReasonTextArea" layoutX="432.0" layoutY="170.0" prefHeight="200.0" prefWidth="200.0" />
+      <Label layoutX="105.0" layoutY="392.0" text="Department" />
+      <Label layoutX="105.0" layoutY="461.0" text="Escalation Date" />
+      <ComboBox fx:id="departmentComboBox" layoutX="286.0" layoutY="395.0" prefWidth="150.0" />
+      <DatePicker fx:id="escalationDatePicker" layoutX="279.0" layoutY="457.0" />
+      <Button layoutX="191.0" layoutY="519.0" mnemonicParsing="false" onAction="#escalateComplaintButton" text="Escalate Complaint" />
+      <Button layoutX="504.0" layoutY="519.0" mnemonicParsing="false" onAction="#clearButton" text="Clear" />
+      <Label layoutX="302.0" layoutY="53.0" text="Complaint Escalation" />
+   </children>
 </AnchorPane>
