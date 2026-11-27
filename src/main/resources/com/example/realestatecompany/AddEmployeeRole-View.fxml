@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="677.0" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.realestatecompany.Rhidi.AddEmployeeRoleController">
+   <children>
+      <Button layoutX="19.0" layoutY="259.0" mnemonicParsing="false" onAction="#addEmployeeRoleOA" text="Add Emloyee Role" />
+      <Button layoutX="19.0" layoutY="298.0" mnemonicParsing="false" onAction="#backOA" text="Back To Dashboard" />
+      <Text layoutX="312.0" layoutY="126.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Role Description Fields" wrappingWidth="128.53668212890625" />
+      <Text layoutX="12.0" layoutY="134.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Role Name" wrappingWidth="80.53668212890625" />
+      <Label fx:id="addEmployeeRoleLabel" layoutX="229.0" layoutY="33.0" text="Add Employee Role" />
+      <TextArea fx:id="descriptionTextArea" layoutX="441.0" layoutY="60.0" prefHeight="166.0" prefWidth="164.0" />
+      <TextField fx:id="roleTextFIeld" layoutX="93.0" layoutY="118.0" />
+   </children>
+</AnchorPane>

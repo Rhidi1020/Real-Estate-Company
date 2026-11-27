@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.realestatecompany.Rhidi.CreateCompanyPolicyController">
+   <children>
+      <TextField fx:id="policyTitleTextFields" layoutX="91.0" layoutY="108.0" />
+      <Text layoutX="18.0" layoutY="177.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Category" />
+      <Button layoutX="38.0" layoutY="253.0" mnemonicParsing="false" onAction="#createCompanyPolicyOA" text="Create Company Policy " />
+      <Button layoutX="381.0" layoutY="339.0" mnemonicParsing="false" onAction="#backOA" text="Back To Dashboard" />
+      <Label fx:id="createComapnyPolicyLabel" layoutX="241.0" layoutY="27.0" text="Create Company Policy" />
+      <Text layoutX="14.0" layoutY="125.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Policy Title" />
+      <Text layoutX="343.0" layoutY="113.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Description" />
+      <ComboBox fx:id="categoryComboBox" layoutX="91.0" layoutY="160.0" prefWidth="150.0" />
+      <TextArea fx:id="descriptionTextArea" layoutX="413.0" layoutY="57.0" prefHeight="155.0" prefWidth="150.0" />
+   </children>
+</AnchorPane>
