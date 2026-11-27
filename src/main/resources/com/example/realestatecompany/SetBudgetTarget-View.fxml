@@ -15,7 +15,7 @@
       <TextField fx:id="budgetNameTextField" layoutX="114.0" layoutY="104.0" />
       <DatePicker fx:id="setDatePicker" layoutX="114.0" layoutY="143.0" />
       <TextArea fx:id="descriptionTextArea" layoutX="386.0" layoutY="56.0" prefHeight="200.0" prefWidth="200.0" />
-      <Button layoutX="22.0" layoutY="350.0" mnemonicParsing="false" onAction="#saveOA" text="Save" />
+      <Button layoutX="22.0" layoutY="350.0" mnemonicParsing="false" onAction="#setBudgetTargetOA" text="Set Budget Target" />
       <TextField fx:id="targetAmountTextField" layoutX="114.0" layoutY="234.0" />
       <Text layoutX="17.0" layoutY="243.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Target Amount" wrappingWidth="88.5445556640625" />
       <DatePicker fx:id="endDatePicker" layoutX="114.0" layoutY="187.0" />

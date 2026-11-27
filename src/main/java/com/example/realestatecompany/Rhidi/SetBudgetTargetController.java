@@ -29,7 +29,7 @@ public class SetBudgetTargetController
     public void initialize() {
     }
 
-    @javafx.fxml.FXML
+    @Deprecated
     public void saveOA(ActionEvent actionEvent) {
     }
 
@@ -51,5 +51,9 @@ public class SetBudgetTargetController
         Alert a = new Alert(Alert.AlertType.INFORMATION);
         a.setContentText(s);
         a.showAndWait();
+    }
+
+    @javafx.fxml.FXML
+    public void setBudgetTargetOA(ActionEvent actionEvent) {
     }
 }
