@@ -9,7 +9,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 
 
-<AnchorPane prefHeight="510.0" prefWidth="746.0" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.realestatecompany.RegisterProjectController">
+<AnchorPane prefHeight="510.0" prefWidth="746.0" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.realestatecompany.afia.controller.RegisterProjectController">
    <children>
       <Label layoutX="35.0" layoutY="58.0" prefHeight="18.0" prefWidth="125.0" text="Project Name" />
       <TextField fx:id="projectNameTextField" layoutX="191.0" layoutY="54.0" />

@@ -1,6 +1,9 @@
 
-package com.example.realestatecompany;
+package com.example.realestatecompany.afia.controller;
 
+import com.example.realestatecompany.AppendableObjectOutputStream;
+import com.example.realestatecompany.afia.model.Milestone;
+import com.example.realestatecompany.afia.model.Project;
 import javafx.event.ActionEvent;
 import javafx.scene.control.*;
 

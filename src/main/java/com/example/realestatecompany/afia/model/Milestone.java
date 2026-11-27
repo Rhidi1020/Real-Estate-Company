@@ -1,4 +1,4 @@
-package com.example.realestatecompany;
+package com.example.realestatecompany.afia.model;
 
 import java.io.Serializable;
 import java.time.LocalDate;

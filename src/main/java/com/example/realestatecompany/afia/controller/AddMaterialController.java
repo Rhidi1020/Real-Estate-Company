@@ -1,6 +1,8 @@
 
-package com.example.realestatecompany;
+package com.example.realestatecompany.afia.controller;
 
+import com.example.realestatecompany.AppendableObjectOutputStream;
+import com.example.realestatecompany.afia.model.Material;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.Alert;

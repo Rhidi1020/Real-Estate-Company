@@ -9,7 +9,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 
 
-<AnchorPane prefHeight="456.0" prefWidth="626.0" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.realestatecompany.RecordProgressController">
+<AnchorPane prefHeight="456.0" prefWidth="626.0" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.realestatecompany.afia.controller.RecordProgressController">
    <children>
       <ComboBox fx:id="projectComboBox" layoutX="56.0" layoutY="43.0" prefWidth="150.0" promptText="Select Project" />
       <ComboBox fx:id="milestoneComboBox" layoutX="56.0" layoutY="89.0" prefWidth="150.0" promptText="Select Milestone" />

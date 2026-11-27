@@ -8,7 +8,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 
 
-<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.realestatecompany.CreateMaterialRequirementRequestController">
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.realestatecompany.afia.controller.CreateMaterialRequirementRequestController">
    <children>
       <ComboBox fx:id="projectComboBox" layoutX="53.0" layoutY="43.0" prefWidth="150.0" promptText="Select Project" />
       <ComboBox fx:id="materialComboBox" layoutX="53.0" layoutY="84.0" prefWidth="150.0" promptText="Select Material" />
