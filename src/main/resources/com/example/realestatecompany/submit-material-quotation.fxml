@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.realestatecompany.SubmitMaterialQuotationController">
+   <children>
+      <ComboBox fx:id="materialRequestComboBox" layoutX="66.0" layoutY="35.0" prefWidth="150.0" promptText="Select RFQ" />
+      <Label layoutX="45.0" layoutY="78.0" prefHeight="18.0" prefWidth="122.0" text="Quoted Unit Price" />
+      <TextField fx:id="quotedPriceTextField" layoutX="189.0" layoutY="74.0" />
+      <DatePicker fx:id="deliveryDatePicker" layoutX="88.0" layoutY="123.0" promptText="Expected Delivery Date" />
+      <Button layoutX="73.0" layoutY="200.0" mnemonicParsing="false" onAction="#submitQuotationButtonOnAction" prefHeight="26.0" prefWidth="159.0" text="Submit Quotation" />
+   </children>
+</AnchorPane>
