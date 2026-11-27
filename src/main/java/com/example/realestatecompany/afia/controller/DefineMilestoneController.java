@@ -88,6 +88,11 @@ public class DefineMilestoneController {
                 break;
             }
         }
+        System.out.println("Selected Project: " + selected.getName());
+        System.out.println("Planned Start Date: " + selected.getPlannedStartDate());
+        System.out.println("Planned Completion Date: " + selected.getPlannedCompletionDate());
+        System.out.println("Entered Milestone Date: " + targetDatePicker.getValue());
+
 
         if (targetDatePicker.getValue().isBefore(selected.getPlannedStartDate())
                 || targetDatePicker.getValue().isAfter(selected.getPlannedCompletionDate())) {
