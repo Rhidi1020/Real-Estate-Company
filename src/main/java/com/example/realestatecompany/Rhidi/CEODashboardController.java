@@ -27,10 +27,10 @@ public class CEODashboardController
 
     @javafx.fxml.FXML
     public void signOutOA(ActionEvent actionEvent) throws IOException {
-        FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("ApproveBudgetProposal-View.fxml"));
+        FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("Login-View.fxml"));
         Scene scene = new Scene(fxmlLoader.load());
         Stage stage = (Stage) ((Node) actionEvent.getSource()).getScene().getWindow();
-        stage.setTitle("Budget Proposal");
+        stage.setTitle("Real Estate Company");
         stage.setScene(scene);
         stage.show();
     }
