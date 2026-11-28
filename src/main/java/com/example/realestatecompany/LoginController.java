@@ -1,6 +1,5 @@
-package com.example.realestatecompany.Rhidi;
+package com.example.realestatecompany;
 
-import com.example.realestatecompany.HelloApplication;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
