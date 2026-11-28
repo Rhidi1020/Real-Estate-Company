@@ -1,4 +1,4 @@
-package com.example.realestatecompany.Rhidi;
+package com.example.realestatecompany;
 
 public class Login {
     private int id;
