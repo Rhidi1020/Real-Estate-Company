@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="482.0" prefWidth="695.0" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.realestatecompany.Rhidi.ApproveBudgetProposalController">
+   <children>
+      <Label fx:id="approveBudgetProposalLabel" layoutX="254.0" layoutY="25.0" text="Approve Budget Proposal" />
+      <Text layoutX="21.0" layoutY="86.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Project Name" />
+      <TextField fx:id="projectNameTexField" layoutX="104.0" layoutY="68.0" />
+      <DatePicker fx:id="submissionDateDatePicker" layoutX="130.0" layoutY="155.0" />
+      <Button layoutX="536.0" layoutY="428.0" mnemonicParsing="false" onAction="#backOA" text="Back to dashboard" />
+      <Text layoutX="12.0" layoutY="131.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Purposd Amount" />
+      <Text layoutX="14.0" layoutY="172.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Sumbmission Date" />
+      <TextField fx:id="purposeAmountTextField" layoutX="114.0" layoutY="118.0" />
+      <Text layoutX="365.0" layoutY="85.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Status" />
+      <Button layoutX="31.0" layoutY="428.0" mnemonicParsing="false" onAction="#approveBudgetProposalOA" text="Approve Budget Proposal" />
+      <TableView layoutX="18.0" layoutY="194.0" prefHeight="200.0" prefWidth="591.0">
+        <columns>
+          <TableColumn fx:id="projectNameTC" prefWidth="140.79998779296875" text="Project Name" />
+          <TableColumn fx:id="purposeAmountTC" prefWidth="123.19996643066406" text="Purposd Amount" />
+            <TableColumn fx:id="submissionDateTC" prefWidth="153.60003662109375" text="Sumbmission Date" />
+            <TableColumn minWidth="0.0" prefWidth="0.0" text="C2" />
+            <TableColumn fx:id="statusTC" prefWidth="168.0" text="Status" />
+        </columns>
+      </TableView>
+      <TextArea fx:id="satusTextArea" layoutX="438.0" layoutY="53.0" prefHeight="74.0" prefWidth="150.0" />
+      <Button layoutX="472.0" layoutY="155.0" mnemonicParsing="false" onAction="#loadOA" text="Load Data " />
+   </children>
+</AnchorPane>

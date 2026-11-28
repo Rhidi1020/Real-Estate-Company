@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="446.0" prefWidth="784.0" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.realestatecompany.Rhidi.AddCompanyBranchController">
+   <children>
+      <TextField fx:id="branchNameTextFields" layoutX="120.0" layoutY="95.0" />
+      <Text layoutX="23.0" layoutY="121.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Branch Name" wrappingWidth="77.60000610351562" />
+      <Text layoutX="14.0" layoutY="153.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Contact Number" wrappingWidth="95.99996948242188" />
+      <TextField fx:id="contactNumberTextFields" layoutX="120.0" layoutY="135.0" />
+      <Text layoutX="321.0" layoutY="112.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Address" wrappingWidth="77.60000610351562" />
+      <TextField fx:id="addressTextFields" layoutX="413.0" layoutY="95.0" />
+      <Text layoutX="321.0" layoutY="152.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Email" wrappingWidth="77.60000610351562" />
+      <TextField fx:id="emailTextFields" layoutX="413.0" layoutY="136.0" />
+      <Button layoutX="14.0" layoutY="406.0" mnemonicParsing="false" onAction="#addCompanyBranchOA" text="Add Company Branch" />
+      <Button layoutX="488.0" layoutY="406.0" mnemonicParsing="false" onAction="#backOA" text="Back To Dashboard" />
+      <Label fx:id="addCompanyBranchLabel" layoutX="270.0" layoutY="30.0" text="Add Company Branch " />
+      <TableView layoutX="14.0" layoutY="193.0" prefHeight="200.0" prefWidth="579.0">
+        <columns>
+          <TableColumn fx:id="branchNameTC" prefWidth="120.0" text="Branch Name" />
+            <TableColumn minWidth="0.0" prefWidth="0.0" text="C2" />
+            <TableColumn fx:id="addressTC" prefWidth="100.79998779296875" text="Address" />
+            <TableColumn fx:id="contactNumberTC" prefWidth="213.60003662109375" text="Contact Number" />
+            <TableColumn fx:id="emailTC" prefWidth="141.5999755859375" text="Email" />
+        </columns>
+      </TableView>
+      <Button layoutX="606.0" layoutY="255.0" mnemonicParsing="false" onAction="#loadOA" text="Load Data" />
+   </children>
+</AnchorPane>

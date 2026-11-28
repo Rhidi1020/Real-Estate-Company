@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.realestatecompany.Rhidi.AccountantDashboardController">
+   <children>
+      <Label layoutX="248.0" layoutY="21.0" prefHeight="27.0" prefWidth="198.0" text="Accountant Dashboard">
+         <font>
+            <Font name="System Bold Italic" size="18.0" />
+         </font>
+      </Label>
+      <Button layoutX="14.0" layoutY="59.0" mnemonicParsing="false" onAction="#addPaymentMethodOA" prefHeight="26.0" prefWidth="158.0" text="Add Payment Method" />
+      <Button layoutX="14.0" layoutY="97.0" mnemonicParsing="false" onAction="#recordClientPaymentOA" prefHeight="26.0" prefWidth="158.0" text="Record client Payment" />
+      <Button layoutX="14.0" layoutY="138.0" mnemonicParsing="false" onAction="#updatePaymentMethodOA" prefHeight="26.0" prefWidth="157.0" text="Update Payment Method" />
+      <Button layoutX="14.0" layoutY="174.0" mnemonicParsing="false" onAction="#verifyTransactionOA" prefHeight="26.0" prefWidth="157.0" text="Verify Transaction" />
+      <Button layoutX="14.0" layoutY="214.0" mnemonicParsing="false" onAction="#generatePaymentReceiptOA" text="Generate Payment Receipt" />
+      <Button layoutX="14.0" layoutY="251.0" mnemonicParsing="false" onAction="#trackPendingPaymentOA" prefHeight="26.0" prefWidth="157.0" text="Track Pending Payment" />
+      <Button layoutX="14.0" layoutY="287.0" mnemonicParsing="false" onAction="#trackCompanyExpensesOA" prefHeight="26.0" prefWidth="158.0" text="Track Company Expenses" />
+      <Button layoutX="14.0" layoutY="330.0" mnemonicParsing="false" onAction="#generateFinancialReportOA" prefHeight="26.0" prefWidth="158.0" text="Generate Financial Report" />
+      <Button layoutX="14.0" layoutY="365.0" mnemonicParsing="false" onAction="#signOutOA" prefHeight="26.0" prefWidth="158.0" text="Sign Out" />
+   </children>
+</AnchorPane>
