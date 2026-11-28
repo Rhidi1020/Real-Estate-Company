@@ -1,5 +1,6 @@
-package com.example.realestatecompany;
+package com.example.realestatecompany.Rhidi;
 
+import com.example.realestatecompany.HelloApplication;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
@@ -59,10 +60,10 @@ public class LoginController
         if(enterIDTextfield.getText().equals("2")){
             if (enterPasswordTextField.getText().equals("Accountant")){
                 try {
-                    FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("Accountant/AccountantDashboard-View.fxml"));
+                    FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("AccountantDashboard-View.fxml"));
                     Scene scene = new Scene(fxmlLoader.load());
                     Stage stage2 = new Stage();
-                    stage2.setTitle("Hello!");
+                    stage2.setTitle("Real Estate Company!");
                     stage2.setScene(scene);
                     stage2.show();
                 }
